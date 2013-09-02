@@ -1,0 +1,16 @@
+1. standard assertions
+    AgeComparatorTest
+    AsChildren|AsParents / null
+
+2. collection assertions
+    AsChildren / should_filter_children
+
+3. custom condition
+    FamilyMemberTest / should_return_youngest_of_brothers_and_sisters
+
+4. support JodaTime (& Guava)
+    FamilyMemberTest / should_return_father_older_than_son
+
+6. custom assertions!
+    6.1. manuel - PersonTest / should_be_dead_if_death_date_present
+    6.2. automatic - play with PersonTest !
